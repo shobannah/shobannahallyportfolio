@@ -1,0 +1,154 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+body {
+    background-color: rgb(218, 212, 212);
+    
+}
+
+header {
+    background-color: #63a3c4;
+    border-bottom: 3px rgb(27, 159, 199) solid;
+    position: sticky;
+    top: 0;
+}
+
+header h1 {
+    display: inline-block;
+    font-size: 60px;
+    padding: 25px 70px 10px 60px;
+    color: black;  
+    
+}
+
+header nav {
+    padding: 30px;
+    float: right;
+    font-size: 20px;
+    list-style-type: none; 
+    
+
+}
+    
+header nav ul li {
+    display: inline-block;
+    margin-left: 50px;
+    
+}
+
+a:link {
+    color: black;
+  }
+ 
+a:visited {
+    color: black;
+  }
+ 
+a:hover {
+    color: green;
+  }
+  
+a:active {
+    color: rgb(204, 51, 77);
+  }
+
+
+div h2 {
+    font-size: 50px;
+    height: 300px;
+    width: 100%;
+    background-image: url(../images/background.jpg);
+    margin: 0 auto;
+    color: white;
+    text-align: center; 
+}
+
+main{
+    border-top: 10px rgb(27, 159, 199) dotted;
+}
+
+h2 {
+    margin-left: 10%;
+    margin-top: 50px;
+    padding: 30px;
+    font-size: 60px;
+    font-family: 'Courier New', Courier, monospace;
+    display: inline-block;
+    color: rgb(179, 116, 71);
+    
+}
+
+.me p {
+    margin: 0px 400px;
+    padding: 50px;
+    font-size: 30px;
+    line-height: 1.2;   
+    color:rgba(73, 66, 66, 0.699); 
+}
+.me img {
+    max-width: 15%;
+    float: right;
+    margin: 5% 3% 0 3%;
+    border-radius: 20px;
+    
+}
+
+
+.resume img {
+    display: block;
+    width: 50%;
+    height: 50%;
+    margin: 0px 20px 0px 500px;
+    border: 10px black solid;   
+}
+
+.grid figure {
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    margin: 50px 20px 0px 400px;
+    
+}
+
+.study img{
+    border: 10px black solid;
+    margin: 30px 100px;
+    width: 400px;
+    height: 500px;
+}
+
+.horiseon img{
+    border: 10px black solid;
+    margin: 30px 50px;
+    width: 400px;
+    height: 500px;
+}
+
+
+
+.service ul{
+    font-size: 30px;
+    padding-bottom: 50px;
+    color: black; 
+    margin-left: 40%;
+    margin-bottom: 5px;
+    word-spacing: 200px;
+}
+
+
+.service ul li {
+    display: inline; 
+}
+
+footer {
+    padding: 30px;
+    text-align: center;
+    border-top: 5px black solid;
+}
+
+footer h4 {
+    font-size: 20px;
+}
