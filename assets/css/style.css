@@ -12,7 +12,6 @@ body {
 header {
     background-color: #63a3c4;
     border-bottom: 3px rgb(27, 159, 199) solid;
-    position: sticky;
     top: 0;
 }
 
@@ -82,7 +81,7 @@ h2 {
 }
 
 .me p {
-    margin: 0px 400px;
+    margin: 0px auto;
     padding: 50px;
     font-size: 30px;
     line-height: 1.2;   
@@ -96,6 +95,20 @@ h2 {
     
 }
 
+.resume {
+    position: relative;
+}
+
+.title-r {
+    position: absolute;
+    bottom: 15px;
+    right: 465px;
+    color: black;
+    font-size: 30px;
+    background-color: goldenrod;
+    border: 2px black solid;
+    padding: 5px;
+}
 
 .resume img {
     display: block;
@@ -105,13 +118,16 @@ h2 {
     border: 10px black solid;   
 }
 
+
 .grid figure {
+    position: relative;
     display: flex;
     flex-direction: row;
     width: 50%;
     margin: 50px 20px 0px 400px;
     
 }
+
 
 .study img{
     border: 10px black solid;
@@ -122,12 +138,34 @@ h2 {
 
 .horiseon img{
     border: 10px black solid;
-    margin: 30px 50px 0px 300px;
+    margin: 
+    30px 50px 0px 300px;
     width: 68%;
     height: 60%;
 }
 
+.guide {
+    position: absolute;
+    margin-top: -50px;
+    margin-left: 350px;
+    color: black;
+    font-size: 20px;
+    background-color: goldenrod;
+    border: 2px black solid;
+    padding: 5px;
 
+}
+
+.web {
+    position: absolute;
+    margin-top: -70px;
+    margin-left: 610px;
+    color: black;
+    font-size: 20px;
+    background-color: goldenrod;
+    border: 2px black solid;
+    padding: 5px;
+}
 
 .service ul{
     font-size: 30px;
@@ -152,3 +190,4 @@ footer {
 footer h4 {
     font-size: 20px;
 }
+
