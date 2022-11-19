@@ -222,9 +222,5 @@ footer h4 {
         flex-direction: column;
         text-align: center;
     }
-
-    html,body{
-        overflow: hidden;
-    }
     
 }
