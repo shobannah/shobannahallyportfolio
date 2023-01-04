@@ -105,10 +105,13 @@ h2 {
 
 /* WORK SECTION */
 
+.portfolio {
+    margin: 50px;
+    
+}
 .portfolio img {
-    width: 1220px;
-    height: 600px;
-    margin-left: 225px;
+    height: 100%;
+    width: 100%;
     border: 10px black solid;  
     border-radius: 20px; 
 }
@@ -116,15 +119,14 @@ h2 {
 .portfolio h4 {
     position: relative;
     bottom: 50px;
-    left: 1330px;
+    left: 500px;
     color: red;
     font-size: 20px;
 }
 
 .grid figure {
     display: flex;
-    flex-direction: row;
-    margin-left: 200px;
+    width: 100%;
 }
 
 
@@ -187,9 +189,6 @@ h2 {
 }
 
 
-.service ul li {
-    display: inline; 
-}
 
 /* FOOTER */
 
@@ -213,6 +212,7 @@ html, body{
 }
 @media screen and (max-width: 912px) {
    
+    
     .me p{
         font-size: 20px;
     }
@@ -223,11 +223,15 @@ html, body{
 
     h1 {
         font-size: 30px;
+        
     }
     nav ul {
         padding: 10px;
         flex-direction: column;
         text-align: center;
+    }
+    .grid figure {
+        
     }
     
 }
