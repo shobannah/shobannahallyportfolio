@@ -1,5 +1,5 @@
 h1 {
-    font-family: 'Sacramento', cursive;
+    font-family: 'Handlee', cursive;
 }
 
 h3 {
@@ -7,6 +7,12 @@ h3 {
 }
 
 h5 {
-    font-family: 'Rajdhani', sans-serif;
+    font-family: 'Handlee', cursive;
 }
 
+.profile {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+}
